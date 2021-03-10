@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/passing-moments-app.git/static/css/main.4ab37d00.chunk.css",
-    "main.js": "/passing-moments-app.git/static/js/main.de1dd92d.chunk.js",
-    "main.js.map": "/passing-moments-app.git/static/js/main.de1dd92d.chunk.js.map",
+    "main.js": "/passing-moments-app.git/static/js/main.0278b23e.chunk.js",
+    "main.js.map": "/passing-moments-app.git/static/js/main.0278b23e.chunk.js.map",
     "runtime-main.js": "/passing-moments-app.git/static/js/runtime-main.989ed691.js",
     "runtime-main.js.map": "/passing-moments-app.git/static/js/runtime-main.989ed691.js.map",
     "static/js/2.83184440.chunk.js": "/passing-moments-app.git/static/js/2.83184440.chunk.js",
@@ -12,12 +12,12 @@
     "index.html": "/passing-moments-app.git/index.html",
     "static/css/main.4ab37d00.chunk.css.map": "/passing-moments-app.git/static/css/main.4ab37d00.chunk.css.map",
     "static/js/2.83184440.chunk.js.LICENSE.txt": "/passing-moments-app.git/static/js/2.83184440.chunk.js.LICENSE.txt",
-    "static/media/purpleBack.3ef2a3e7.webp": "/passing-moments-app.git/static/media/purpleBack.3ef2a3e7.webp"
+    "static/media/purpleBack0.bfe14b6d.webp": "/passing-moments-app.git/static/media/purpleBack0.bfe14b6d.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.989ed691.js",
     "static/js/2.83184440.chunk.js",
     "static/css/main.4ab37d00.chunk.css",
-    "static/js/main.de1dd92d.chunk.js"
+    "static/js/main.0278b23e.chunk.js"
   ]
 }
