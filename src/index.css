@@ -1,13 +1,98 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-size: 16pt;
+  font-family: 'Mogra';
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rosybrown !important;
+  background: transparent;
+  opacity: 0.5; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input,
+button {
+  font: inherit;
+  box-sizing: border-box;
+}
+
+input[type='submit'],
+button {
+  cursor: pointer;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 95%;
+}
+
+.App h1:before {
+  content: '💭';
+  margin-right: 0.5em;
+}
+
+.AddThoughtForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AddThoughtForm input {
+  padding: 1.5rem;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+.AddThoughtForm input[type='text'] {
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+.thoughts {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Thought {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  background-color: #eee;
+}
+
+.Thought .remove-button {
+  font-size: 80%;
+  float: right;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.Thought .remove-button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.demo-wrap {
+  /* overflow: hidden;
+  position: relative; */
+}
+
+.demo-bg {
+  content: "";
+  /* opacity: 0.8; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.demo-content {
+  position: relative;
 }
