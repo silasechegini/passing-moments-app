@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AddThoughtForm } from './AddThoughtForm';
 import { Thought } from './Thought';
 import { generateId, getNewExpirationTime } from './utilities';
-import purpleBack from './purpleBack.webp'
+import purpleBack from './purpleBack0.webp'
 
 function App() {
   const [thoughts, setThoughts] = useState([
